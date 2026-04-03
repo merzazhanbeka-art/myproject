@@ -1,1 +1,167 @@
+<!DOCTYPE html>
+<html lang="kk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Дәмді Мәзір Рецепттермен</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      /* Бұл стильдер сайттың визуалды бөлігін жақсартады */
+      body{
+        font-family:  'Montserrat', sans-serif;
+        background-color: gray; /* Ақшыл сұр фон */
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .container {max-width: 600px;
+      width: 100%;
+    }
+      h1{
+        text-align: center;
+        color:aqua;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+}
 
+/* карточкасының стилі */
+      .card {
+      background: white;
+      margin-bottom: 25px;
+      border-radius: 115px;
+      overflow: hidden;/*  көрінетін жиектерді шектеу */
+      box-shadow: 0 5px 15px rgba(red, green, blue, alpha);
+      transition: transform 0.3s ease;
+      }
+
+      .card:hover{transform: translateY(-5px); /*курсорды апарғанда көтеру*/
+      }
+
+      /*Суреттің стилі*/
+      .card img {
+        width: 100%;
+      height: 250px;/*суретті биіктігі*/
+      object-fit: cover;/* суретті созбай сыйдыру*/
+      }
+
+      /*мәтіндік бөлім*/
+      .content {
+        padding: 20px;
+      }
+
+      .content h3 {margin: 0 0 10px 0;
+        color: coral ; 
+        font-size: 1.4em;
+      }
+
+      .content p {font-size: 15px;
+      color: #636e72;
+      line-height: 1.6;
+      margin-bottom: 15px;
+      }
+
+      /*рецепт бөліміҮ*/
+      .steps {background: #fff9f4;
+      padding: 15px;
+    border-radius: 10px;
+  font-size: 14px;
+color: #7f8c8d;
+border-left: 5px solid #e67e22;
+}
+ .steps b {color: #d35400;
+display: block;
+margin-bottom: 5px;
+}
+
+    </style>
+</head>
+ <body>
+      <div class="container">
+        <h1>5таңдаулы рецепт</h1>
+ 
+
+        <div class="card">
+          <img src="https://avatars.mds.yandex.net/get-vertis-journal/4471904/c60534e1-8425-40aa-83a4-763698e7f844.jpg/1600x1600" alt="Бешбармақ">
+        <div class="content"> 
+          <h3>1. Бешбармақ</h3>
+          <p>қазақтың ұлттық тамағы</p>
+          <div class=" steps">
+            <b>рецепт:</b>
+            Етті(жылқы немесе қой)суға салып,2.5сағат бойы баяу отта қайнатамыз.Сорпа бетіндегі майды жинап аламыз. қамыр жайып, сорпаға пісіреміз. Бетіне тұздық құйамыз
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://avatars.mds.yandex.net/i?id=772cea1580561fdf385fd24e19d1e7c8032e2ed8-10811833-images-thumbs&n=13" alt="паста">
+          <div class="content">
+            <h3>2.италиян пастасы</h3>
+            <p>тез әрі өте Дәмді түскі ас</p>
+            <div class="steps">
+              <b>рецепт</b>
+              Тауық етін тілімдеп пісіреміз.Бөлек табаға сарымсақты майға қурып тамат соусын, шөптерді қосамыз. Дайын пастаны соуспен араластырамыз. 
+            </div>
+          </div>
+        
+          </div>
+          
+ <div class="card">
+  <img src="https://img.vkusvill.ru/pim/images/site/site_LargeWebP/79cac57b-7a9a-4ef6-bd9f-1fd89788a4b3.webp" alt="цезарь салат">
+  <div class="content">
+    <h3>3. цезарь салатты</h3>
+    <p>классикалық женіл салат.</p>
+    <div class="steps">
+      <b>рецепт</b>
+      Тауық етін тілімдеп қурырамыз. Айсберг жапырақтарын. кептірлген нан, пармезан сырын араластырамыз. Арнайы цезарь соусын құйып, үстіне Тауық етін қойамыз. 
+        </div>
+     </div>
+  </div>     
+   
+  <div class="card">
+    <img src="https://i.ytimg.com/vi/ghhLeInlnbo/maxresdefault.jpg" alt="панкейк">
+    <div class="content">
+      <h3>4.</h3>
+      <p>америкалық жұмсақ құймақтар</p>
+      <div class="steps">
+        <b>рецепт</b>
+        Жұмыртқаны қантпен араластырып, сүт,ұн, қопсытқыш және аздап өсімдік майын қосамыз. Майсыз табада екі бетін қызартып пісіреміз. Бал немесе тосаппен
+        ұсынамыз. 
+         </div>
+     </div>
+  </div>
+   
+  
+      
+          <div class="card">
+              <img src="https://avatars.mds.yandex.net/i?id=f0ba63d37b830d4e749ebb7240d23e05cba195a3-5551764-images-thumbs&n=13" alt="лимонад">
+              <h3>5 uy Laminady </h3>
+              <p>шөл қандыратын сергітетін сусын/</p>
+              <div class="steps">
+                <b>рецепт</b>
+                Лимон шырынын сығып, сумен араластырамыз (1л суға 2 Лимон ). Талғамызға қарай қант немесе Бал, мұз кесектерін және жалбыз жапырақтарын қосамыз. 
+                
+            </div>
+         </div>
+    
+        
+        </div>
+
+
+
+
+
+        
+        
+            
+        </body>
+        </html>
+
+        
+    
+            
+    
+    
